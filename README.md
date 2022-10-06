@@ -5,7 +5,7 @@ A inteção do repositório é aprender e relembrar funcionalidades simples e ú
 Utilizar como uma biblioteca...
 ```
 
-### Infos
+### Informações
 - Projeto criado utilizando Vite `npm create vite@latest`
 
 ### Rodar no ambiente local
@@ -14,5 +14,5 @@ Utilizar como uma biblioteca...
 - Instale as dependencias `npm install`
 - Inicie o projeto: `npm run dev`
 
-### Fontes:
+#### Fontes:
 [TUDO que você deve estudar de JavaScript antes do React](https://www.youtube.com/watch?v=37SwqREHRGI)
