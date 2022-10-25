@@ -266,10 +266,17 @@ const valueX = 15;
 
 // Importações
 
-import { soma, subtracao } from "./lib/math";
+import { soma, subtracao as sub } from "./lib/math"; // importa cada função desejada do arquivo, possivel nomear com AS
+import * as math from "./lib/math"; // dessa forma crio um objeto com todas as funções da importação
+import teste from "./lib/sum"; // nesse padrão default posso alterar o nome da função
 
 console.log(soma(2, 6))
-console.log(subtracao(2, 6))
+console.log(sub(2, 6))
+
+console.log(math.soma(2, 6))
+console.log(math.subtracao(2, 6))
+
+console.log(teste(2, 6))
 
 
 
